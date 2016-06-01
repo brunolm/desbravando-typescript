@@ -1,0 +1,33 @@
+{
+  "name": "desbravando-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript demos",
+  "main": "built/index.js",
+  "scripts": {
+    "start": "node built/index.js",
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "clean": "rimraf built",
+    "rebuild": "npm run clean && npm run build",
+    "test": "mocha built/spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "desbravando-typescript"
+  },
+  "keywords": [
+    "typescript",
+    "demos",
+    "ts"
+  ],
+  "author": "Bruno Leonardo Miches <brunolm7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2",
+    "typescript": "^1.8.10"
+  }
+}
