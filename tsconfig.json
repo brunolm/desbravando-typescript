@@ -4,9 +4,12 @@
     "target": "es6",
     "noImplicitAny": false,
     "sourceMap": true,
+    "allowJs": true,
     "outDir": "built"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "built",
+    "gulpfile.js"
   ]
 }
