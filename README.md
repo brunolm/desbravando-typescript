@@ -40,3 +40,8 @@ Exploring TypeScript
   - "Rename" to ts
   - Show and fix errors
   - Show refactoring
+
+- src/example03/reactapp.tsx
+  - Show class, prop and state types
+  - Show tsd
+  - Show tsconfig `jsx` option `react` and `preserve`
