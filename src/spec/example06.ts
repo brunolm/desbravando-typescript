@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import { Direction, FileFlags } from '../example06/enums';
 
-describe('example06', () => {
+describe.skip('example06', () => {
   it('should return direction values', () => {
     assert.equal(0, Direction.Up);
     assert.equal(1, Direction.Down);

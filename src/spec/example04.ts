@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import { User } from '../example04/classes';
 
-describe('example04', () => {
+describe.skip('example04', () => {
   it('should create user', async () => {
     // const user = new User(); // error, parameter is not optional
     const user = new User('Bruno Michels');

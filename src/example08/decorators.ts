@@ -23,7 +23,6 @@ export class SHA2CryptoServiceProvider extends SHA1CryptoServiceProvider {
 }
 
 function sealed(constructor: Function) {
-  console.log('seal');
   Object.seal(constructor);
   Object.seal(constructor.prototype);
 }

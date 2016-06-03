@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import { test, createName } from '../example05/interfaces';
 
-describe('example05', () => {
+describe.skip('example05', () => {
   it('should return clientId', () => {
     const result = test({
       realmId: 1,
