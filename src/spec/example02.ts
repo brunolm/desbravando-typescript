@@ -1,8 +1,8 @@
 import { assert } from 'chai';
 import { wait } from '../example02';
 
-describe('wait', () => {
-  xit('should wait at least 2 seconds', async () => {
+describe.skip('wait', () => {
+  it('should wait at least 2 seconds', async () => {
     const now = new Date().getTime();
     const in2secs = now + 2000;
 

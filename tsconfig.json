@@ -6,6 +6,7 @@
     "noImplicitAny": false,
     "sourceMap": true,
     "allowJs": true,
+    "experimentalDecorators": true,
     "outDir": "built"
   },
   "exclude": [
