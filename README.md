@@ -45,3 +45,32 @@ Exploring TypeScript
   - Show class, prop and state types
   - Show tsd
   - Show tsconfig `jsx` option `react` and `preserve`
+
+- src/example04/classes.ts
+  - Show inheritance
+  - Show access modifiers
+  - Show constructor
+  - Show tests
+
+- src/example05/interfaces.ts
+  - Show interface
+    - Show variable example
+  - Show interface inheritance
+    - Show variable example
+  - Show generics
+  - Show `type`
+  - Show tests
+
+- src/example06/enums.ts
+  - Show enum
+  - Show flags enum
+  - Show compiled file
+  - Show tests
+
+- src/example07/namespaces.ts
+  - Show constants in namespace
+  - Show tests
+
+- src/example08/decorators.ts
+  - Show classes and decorator function
+  - Show tests
